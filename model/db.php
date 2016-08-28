@@ -2,7 +2,7 @@
 
 
 	function db_connect(){
-		$connection = mysqli_connect("localhost", "root", "", "raja");
+		$connection = mysqli_connect("localhost", "root", "palaniM@67", "raja");
 		if (!$connection) {
 		    die("Connection failed: " . mysqli_connect_error());
 		    exit();
